@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Container för text och knappar */
+.container {
+  padding: 40px;
+  border-radius: 15px;
+  background-color: black
+}
+
+/* Rubrik */
+h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+/* Knappar */
+button {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  margin: 10px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Hover-effekt */
+button:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<title>Min Hemsida</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Välkommen till Min Hemsida</h1>
+</header>
+<nav>
+<ul>
+<li><a href="about.html">Om mig</a></li>
+<li><a href="contact.html">Kontakt</a></li>
+</ul>
+</nav>
+<main>
+<section>
+<h2>Nyheter</h2>
+<p>Här kommer det stå senaste nytt om hemsidan.</p>
+</section>
+<section>
+<h2>Blogg</h2>
+<p>Här finns inlägg och artiklar om olika ämnen.</p>
+</section>
+</main>
+<footer>
+<p>Kontakt: info@minhemsida.se | Tel: 0123-456789</p>
+</footer>
+</body>
+</html>

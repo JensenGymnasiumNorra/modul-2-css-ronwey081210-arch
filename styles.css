@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+header {
+  background-color: #000;
+  color: #ff0008;
+  text-align: center;
+}
+
+
+nav {
+  background-color: #000000;
+  text-align: center;
+  padding: 15px 0;
+  border-top: solid #ff0008;
+  border-bottom: solid #ff0008;
+  position: sticky;
+  top:0;
+  z-index: 1000;
+}
+
+
+nav ul {
+  list-style: none; 
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0; 
+  padding: 0; 
+}
+
+nav ul li a {
+  color: #ff0000; 
+  font-size: 18px;
+  padding: 8px 20px;
+  border: solid #ff0000;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+
+nav ul li a:hover {
+  background-color: #ff0000;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+
+main {
+  padding: 40px 5%;
+}
+
+
+.fighter-list {
+  font-size: 1.1em;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.fighter-list li {
+  margin-bottom: 0;
+  padding: 5px 10px;       
+  border: 1px solid #ff0000;  
+  border-radius: 5px;     
+  display: inline-block;  
+}
+
+
+.fighter-banner {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+.weight-class-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+
+.weight-class {
+  background-color: #222;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.6s;
+}
+
+
+.weight-class:hover {
+  transform: translateY(-15px);
+  border-color: #ff0008;
+}
+
+.weight-class h3 {
+  color: #ff0008;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.weight-class ul {
+  list-style: none;
+}
+
+.weight-class ul li {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.news-card,
+.event-card {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.7s;
+  box-shadow: black;
+}
+
+.news-card:hover,
+.event-card:hover {
+  transform: translateY(-20px);
+}
+
+
+.events-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.event-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.special-title {
+  text-align: center;
+  font-size: 36px;
+  margin: 50px 0;
+  color: #ff0008;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: 30px;
+  border-top: 2px solid #ff0008;
+}
